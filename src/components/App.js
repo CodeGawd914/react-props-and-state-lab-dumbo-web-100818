@@ -40,7 +40,6 @@ class App extends React.Component {
         ? { ...pet, isAdopted: true}
         : pet
 
-        console.log(pets)
       })
       this.setState({ pets })
   }
